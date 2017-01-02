@@ -8,6 +8,8 @@ public with sharing class ChangePasswordController {
     
     // testing a change asdsdfsf hekkiw asasd asdfsdfsf
     public PageReference changePassword() { // asdasda
+    	
+    	// Testing some additional changes
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
