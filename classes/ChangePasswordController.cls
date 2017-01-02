@@ -10,7 +10,7 @@ public with sharing class ChangePasswordController {
     public PageReference changePassword() { // asdasda
     	
     	// Testing some additional changes
-    	// Additinoal update
+    	// Additinoal update 2
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
