@@ -6,8 +6,8 @@ public with sharing class ChangePasswordController {
     public String newPassword {get; set;}
     public String verifyNewPassword {get; set;}        
     
-    // testing a change asdsdfsf hekkiw asasd
-    public PageReference changePassword() {
+    // testing a change asdsdfsf hekkiw asasd asdfsdfsf
+    public PageReference changePassword() { // asdasda
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
